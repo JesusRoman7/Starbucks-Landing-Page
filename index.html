@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="circle"></div>
+        <header class="header">
+            <div class="header__logo">
+                <a href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="header__links">
+                <a href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">What's New</a>
+                <a href="">Contact</a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee</h2>
+                <h2>It's <span class="colorLogo">Starbucks</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti provident a, sed qui repellat, quibusdam impedit laborum atque nostrum ullam quas quaerat illum maiores quidem sequi deleniti. Dignissimos, laudantium. Perspiciatis.</p>
+                <a class="learnMore" href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/img1.png" class="starbucks" alt="img1">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/thumb1.png" onclick="imgSlider('images/img1.png'); changeCircleColor('#017143')" alt=""></li>
+            <li><img src="images/thumb2.png" onclick="imgSlider('images/img2.png'); changeCircleColor('#eb7495')" alt=""></li>
+            <li><img src="images/thumb3.png" onclick="imgSlider('images/img3.png'); changeCircleColor('#d752b1')" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="images/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__contact">
+            <div class="footer__contact__a">
+                <a href="https://github.com/JesusRoman7">
+                    <img src="images/git.png" alt="git">
+                </a>
+            </div>
+            <div class="footer__contact__a">
+                <a href="https://www.linkedin.com/in/jesus-roman-0b6391159/">
+                    <img src="images/linkedin2.png" alt="linkedin">
+                </a>
+            </div>
+        </div>
+        <div class="footer__contact__p">
+            <p>Accesibilidad Web</p>
+            <p>Aviso de Privacidad</p>
+            <p>Boletines</p>
+            <p>Condiciones de uso</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
